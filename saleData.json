@@ -1,0 +1,39 @@
+{
+  "saleHeadVisible":true,
+  "saleTitleText":"Presale date",
+  "saleSubtitleText":"TO BE ANNOUNCED",
+  "saleTime":1533038400000,
+  "saleCountVisible":false,
+  "saleProgressVisible":false,
+  "saleInfoVisible":false,
+  "totalRaised":11899000,
+  "currentPriceString":"USD 0.10",
+  "tokensSoldString": "180.245.000",
+  "salePriceVisible":false,
+  "displayTopLine":false,
+  "displayCalendarButton":false,
+  "topLineText":"Join the sale until it's too late!",
+  "salePrices":
+  [
+    {
+      "priceDate":"January 05",
+      "priceValue":"$0.8"
+    },
+    {
+      "priceDate":"January 13",
+      "priceValue":"$1.0"
+    },
+    {
+      "priceDate":"January 15",
+      "priceValue":"$1.05"
+    },
+    {
+      "priceDate":"January 20",
+      "priceValue":"$1.10"
+    },
+    {
+      "priceDate":"February 02",
+      "priceValue":"$1.11"
+    }
+  ]
+}
