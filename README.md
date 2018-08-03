@@ -10,5 +10,4 @@ Sponsy is disrupting the sponsorship industry. It is a one-stop online solution 
 A beautiful website showcasing the features of Sponsy, the problems of the industry, and the team behind the project.
 
 # Visual
-![sponsy_screen_1](images/screen_website_1.jpg)
-![sponsy_screen_2](images/screen_website_2.jpg)
+![sponsy_screen_1](images/sponsy_website.jpg)
