@@ -3,7 +3,7 @@
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 function redirectCountry() {
-	$.getJSON('https://freegeoip.net/json/', function(data) {
+	$.getJSON('http://api.ipstack.com/check?access_key=4d78af7c788de9f73fe581faf00229f2&format=1', function(data) {
 			switch (data.country_code) {
 				case 'BY':
 				case 'RU':

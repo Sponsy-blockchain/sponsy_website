@@ -4221,7 +4221,7 @@ button.button404 {
 
 
   #partnerships {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
 
@@ -4486,6 +4486,10 @@ button.button404 {
 
 .story__bubble .bubbles__title {
   font-size: 1.875rem;
+}
+
+#mission {
+  padding-top: 5px;
 }
 
 .speedo {
@@ -5400,7 +5404,7 @@ text-align: center;
 }
 
 #interviews.team {
-  padding-top: 120px;
+  padding-top: 150px;
 }
 
 .team.main_team {
@@ -6238,8 +6242,8 @@ text-align: center;
   overflow: hidden;
 }
 
-.work {
-  padding-top: 30px;
+#work {
+  padding-top: 130px;
 }
 
 .work__group {
@@ -6506,7 +6510,7 @@ text-align: center;
 }
 
 .fact {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .fact__head {
@@ -6652,7 +6656,7 @@ text-align: center;
 
 .rest__footer {
   position: relative;
-  padding-top:50px;
+  padding-top:30px;
 }
 
 .rest__footer:before {
@@ -7268,7 +7272,7 @@ text-align: center;
 
 /*video-slider*/
 .video-slider-sec{
-	height: 525px;
+	height: 490px;
 	position: relative;
 	z-index: 3;
 }
@@ -7567,6 +7571,14 @@ text-align: center;
     transform: scale(1.1) translateY(16px);
   }
 
+  #work {
+    padding-top: 90px;
+  }
+
+  #team {
+    padding-top: 120px;
+  }
+
   .interview__img.tech__app__demo {
     width: 420px;
     height: 236px;
@@ -7586,13 +7598,17 @@ text-align: center;
 @media (max-width: 736px) {
   .container-carousel {
     overflow: hidden;
-    padding-top: 120px; 
+    padding-top: 40px; 
   }
 }
 
 @media (max-width: 479px) {
   .made__desktop-bg {
     transform: scale(1.4);
+  }
+
+  #work {
+    padding-top: 160px;
   }
 
   .interview__img.tech__app__demo {
@@ -7603,7 +7619,7 @@ text-align: center;
   }
 
   #partnerships {
-    padding-top: 150px;
+    padding-top: 75px;
   }
 
   #partnerships.tokensale {
@@ -13954,8 +13970,12 @@ li.sale_legend_point.pl7 span {
     display: none;
   }
 
-  #team {
-    padding-top: 120px;
+  #mission {
+    padding-top: 100px;
+  }
+
+  #interviews.team {
+    margin-top: 45px;
   }
 
   #sponsy_features {
@@ -14153,10 +14173,6 @@ li.sale_legend_point.pl7 span {
 
   .bubble__upper {
     bottom: 110px;
-  }
-
-  #team {
-    padding-top: 120px;
   }
 
   .team__head {
@@ -14842,6 +14858,12 @@ li.sale_legend_point.pl7 span {
   .fact__space_add {
     margin-bottom: 1.25rem;
   }
+
+  #events_section.tokensale {
+
+    padding-top: 120px;
+  }
+
   .hist {
     margin-top: -146px;
   }
@@ -14893,7 +14915,7 @@ li.sale_legend_point.pl7 span {
   }
 
   .rest__footer {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   .whitelist_head {
@@ -14936,6 +14958,10 @@ li.sale_legend_point.pl7 span {
 
   ._sm-show {
     display: none;
+  }
+
+  #team {
+    padding-top: 200px;
   }
 
   #solution {
@@ -15490,6 +15516,15 @@ li.sale_legend_point.pl7 span {
 
 }
 
+@media (max-width: 1052px) and (min-width: 768px) {
+
+
+  .video-slider-sec {
+    height: 390px;
+  }
+
+
+}
 
 @media (max-width: 1023px) and (min-width: 768px) {
   .progress {
@@ -15504,7 +15539,7 @@ li.sale_legend_point.pl7 span {
 
 
   #partnerships{
-    padding-top: 0px;
+    padding-top: 50px;
   }
 
   #partnerships.tokensale {
@@ -15513,10 +15548,6 @@ li.sale_legend_point.pl7 span {
 
   .video-slid-container {
     width: 47%;
-  }
-
-  .video-slider-sec {
-    height: 390px;
   }
 
   .sale_img_allocation .sale_allocation_chart {
