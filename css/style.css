@@ -5699,6 +5699,10 @@ text-align: center;
   width: 200px;
 }
 
+.view-text ul.techButtons {
+  padding-left: 0;
+}
+
 .sponsyAppstoreLink.topLink{
   width: 171px;
   margin-top: 0px;
