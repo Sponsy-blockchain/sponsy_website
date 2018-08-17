@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport">
+		<link rel="stylesheet" href="css/main.css?v=1534492046883">
+	</head>
+	<body>
+		<div class="log-in-container">
+			<div class="dashboard__item log-in sign-up-sponsee">
+				<form id="log-in-form"><a href="#"><img class="log-in__image" src="images/logo.png" alt="Logo"></a>
+					<label class="log-in__label log-in__label_sponsee" for="log-in-name">Enter you full name</label>
+					<input class="log-in__input log-in__input_sponsee input-unify" id="log-in-name" type="text" placeholder="Bob Cowe">
+					<label class="log-in__label log-in__label_sponsee" for="log-in-email">Enter your e-mail</label>
+					<input class="log-in__input log-in__input_sponsee input-unify" id="log-in-email" type="text" placeholder="sample@sample.com">
+					<label class="log-in__label log-in__label_sponsee" for="log-in-password">Enter your password</label>
+					<input class="log-in__input log-in__input_sponsee input-unify" id="log-in-password" type="text" placeholder="Enter your password">
+					<label class="log-in__label log-in__label_sponsee" for="log-in-re-password">Repeat your password</label>
+					<input class="log-in__input input-unify" id="log-in-re-password" type="text" placeholder="Repeat your password">
+					<label class="log-in__label log-in__label_sponsee">What is your business?</label>
+					<div class="log-in__radio">
+						<div class="radio-item">
+							<div class="radio-item__container">
+								<label class="radio-item__label" for="log-in-sponsee">Sponsee</label>
+								<input class="radio-item__input" id="log-in-sponsee" type="radio" name="business" checked>
+							</div><span class="radio-item__text">Business aiming to raise <br>
+								sponsorship funding</span>
+						</div>
+						<div class="radio-item">
+							<div class="radio-item__container">
+								<label class="radio-item__label" for="log-in-sponsor">Sponsor</label>
+								<input class="radio-item__input" id="log-in-sponsor" type="radio" name="business">
+							</div><span class="radio-item__text">Business aiming to sponsor <br>
+								other businesses</span>
+						</div>
+					</div>
+					<input class="log-in__submit animation-unify" type="submit" value="Sign up">
+					<p class="log-in__account log-in__account_sponsee">By filling in all inputs, I do irrevocably accept <a class="log-in__sign-up log-in__link" href="#">Terms & Conditions</a></p>
+				</form>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1534492046883"></script>
+		<script src="js/main.js?v=1534492046883"></script>
+	</body>
+</html>

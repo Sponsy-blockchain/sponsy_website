@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport">
+		<link rel="stylesheet" href="css/main.css?v=1534495033155">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container"><a href="#"><img class="header__logo" src="images/logo.png" alt="logo"></a>
+				<div class="header__info"> 
+					<div class="header__login">
+						<div class="header__name notify-selector">Bob Cowe</div>
+						<div class="header__swither">
+							 Log out</div>
+					</div>
+					<div class="header__notice notify-selector"><img class="header__notice-image" src="images/bell.svg" alt="notice bell">
+						<div class="header__notice-quantity">2</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="dashboard">
+			<div class="dashboard__container dashboard__container_without-sidebar listing-sponsor">
+				<form id="listing-sponsor-business">
+					<div class="dashboard__row dashboard__row_listing">
+						<h2 class="dashboard__section-header">Listing sponsee business</h2>
+						<div class="dashboard__item">
+							<label class="label-unify">Enter the title to be seen as sponsee</label>
+							<input class="input-unify" type="text" placeholder="Nice Jazz Festival" value=""/>
+							<label class="label-unify">Enter the brief company’s quote</label>
+							<input class="input-unify" type="text" placeholder="The first jazz festival of international significance" value=""/>
+						</div>
+						<div class="dashboard__item sponsor-buisness">
+							<div class="sponsor-buisness__logo">
+								<p class="sponsors-buisness__hint label-unify">Chose a sponsee logo</p>
+								<label class="label-file-unify"><img class="sponsor-buisness__image" src="images/photo-empty.png" alt="Logo"/>
+									<input class="input-file-unify" type="file"/>
+								</label>
+							</div>
+							<div class="sponsor-buisness__content">
+								<h3 class="sponsor-buisness__title">Nice Jazz Festival</h3>
+								<p class="sponsor-buisness__description">The first jazz festival of international significance</p>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__row dashboard__row_listing">
+						<h2 class="dashboard__section-header">Details</h2>
+						<div class="dashboard__item sponsor-detail">
+							<label class="label-unify" for="details-1-textarea">Description shall tell more about your company, its history and development.</label>
+							<textarea class="textarea-unify" id="details-1-textarea" name="details-1" cols="10" rows="5" placeholder="The Nice Jazz Festival, held annually since 1948 in Nice, on the French Riviera, is “the first jazz festival of international significance.” At the inaugural festival, Louis Armstrong and his All Stars were the headliners. Frommer’s calls it “the biggest, flashiest, and most prestigious jazz festival in Europe.”"></textarea>
+						</div>
+						<div class="dashboard__item sponsor-detail">
+							<label class="label-unify" for="details-2-textarea">Tell us more about how sponsors take advantage of your audience</label>
+							<textarea class="textarea-unify" id="details-2-textarea" name="details-2" cols="10" rows="5" placeholder="Sponsors are free to put their unique branding and advertising on custom stand or counter throughout the event territory. The size of branding can vary and will influence the price of it. Premium sponsors can enjoy event organizers expressly mentioning their brand during one of the speeches. Please refer to…"></textarea>
+						</div>
+						<div class="dashboard__item sponsor-detail">
+							<label class="label-unify" for="details-3-textarea">How do you handle sponsors’ brands?</label>
+							<textarea class="textarea-unify" id="details-3-textarea" name="details-3" cols="10" rows="5" placeholder="">We’ve created a so-called Partners Village. We will be happy to see your brand or company joining the Village. This is a great opportunity for you to position your company as a key player in economic and social life, promote your dynamism, and strengthen business contacts.</textarea>
+						</div>
+						<div class="dashboard__item sponsor-select">
+							<p class="label-unify">Select your business indusrty from the list below</p>
+							<div class="sponsor-select__container">
+								<select class="sponsor-select__select" id="details-select" name="details-select">
+									<option></option>
+									<option value="Automative">Automative</option>
+									<option value="Technology &amp; Telecommunications">Technology & Telecommunications</option>
+									<option value="Clothing">Clothing</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__row dashboard__row_listing">
+						<div class="list-new-asset__direct"><a class="list-new-asset__button list-new-asset__button_cancel animation-unify" href="#">Cancel</a>
+							<input class="list-new-asset__button list-new-asset__button_confirm animation-unify" type="submit" value="Confirm"/>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer"><span class="footer__text">Sponsy © 2018 All rights reserved</span></footer>
+		<div class="notify dashboard__item animation-short">
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1534495033156"></script>
+		<script src="js/main.js?v=1534495033156"></script>
+	</body>
+</html>

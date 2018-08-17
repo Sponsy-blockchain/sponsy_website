@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport">
+		<link rel="stylesheet" href="css/main.css?v=1534492047580">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container"><a href="#"><img class="header__logo" src="images/logo.png" alt="logo"></a>
+				<div class="header__info"> 
+					<div class="header__login">
+						<div class="header__name notify-selector">Bob Cowe</div>
+						<div class="header__swither">
+							 Log out</div>
+					</div>
+					<div class="header__notice notify-selector"><img class="header__notice-image" src="images/bell.svg" alt="notice bell">
+						<div class="header__notice-quantity">2</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside class="sidebar">
+			<nav>
+				<ul class="sidebar__menu">
+					<li class="sidebar__item"><a class="sidebar__link active" href="#">
+							<div class="sidebar__image dashboard"></div><span class="sidebar__text">Dashboard</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image sponsor"></div><span class="sidebar__text">Sponsors</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image handshake"></div><span class="sidebar__text">Sponsee</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image network"></div><span class="sidebar__text">My arrangements</span></a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main class="dashboard">
+			<div class="dashboard__container">
+				<div class="dashboard__row dashboard__row_no-header">
+					<div class="dashboard__item dashboard-brand">
+						<div class="dashboard-brand__image">	<img src="images/image.png" alt="Adidas"/></div>
+						<div class="dashboard-brand__content">
+							<h2 class="dashboard-brand__header">Adidas</h2>
+							<div class="dashboard-brand__text">
+								<p>International sportswear brand. largest sportswear manufacturer in Europe</p>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__item dashboard-rating">
+						<p class="dashboard-rating__header">Rating</p>
+						<p class="dashboard-rating__text">4.5</p>
+					</div><a class="dashboard__item dashboard-propose" href="#"><span>Propose partnership</span></a>
+				</div>
+				<div class="dashboard__row">
+					<div class="dashboard__column">
+						<div class="dashboard__item dashboard-financials">
+							<h2 class="dashboard-financials__header">Financials</h2>
+							<div class="dashboard-financials__chart">
+								<div class="chart">
+									<div class="chart__axis chart__axis_y">
+										<div class="chart__value">6000</div>
+										<div class="chart__value">4000</div>
+										<div class="chart__value">2000</div>
+									</div>
+									<div class="chart__field">
+										<div class="chart__line"></div>
+										<div class="chart__line"></div>
+										<div class="chart__line"></div>
+										<canvas class="chart__canvas" id="financial-chart-1"></canvas>
+									</div>
+									<div class="chart__axis chart__axis_x">
+										<div class="chart__value">Jan</div>
+										<div class="chart__value">Feb</div>
+										<div class="chart__value">Mar</div>
+										<div class="chart__value">Apr</div>
+										<div class="chart__value">May</div>
+										<div class="chart__value">Jun</div>
+										<div class="chart__value">Jul</div>
+										<div class="chart__value">Aug</div>
+										<div class="chart__value">Sep</div>
+										<div class="chart__value">Oct</div>
+										<div class="chart__value">Nov</div>
+										<div class="chart__value">Dec</div>
+									</div>
+								</div>
+							</div>
+							<div class="dashboard-financials__values">
+								<div class="dashboard-financials__item">
+									<div class="dashboard-financials__spend">Total spend</div>
+									<div class="dashboard-financials__value">YTD</div>
+									<div class="dashboard-financials__spons">SPONS 4k</div>
+								</div>
+								<div class="dashboard-financials__item">
+									<div class="dashboard-financials__spend">Total spend</div>
+									<div class="dashboard-financials__value">Last 12 month</div>
+									<div class="dashboard-financials__spons">SPONS 400k</div>
+								</div>
+								<div class="dashboard-financials__item">
+									<div class="dashboard-financials__spend">Total spend</div>
+									<div class="dashboard-financials__value">Last month</div>
+									<div class="dashboard-financials__spons">SPONS 20k</div>
+								</div>
+							</div>
+							<div class="dashboard-financials__chart-point hidden"></div>
+							<div class="dashboard-financials__chart-description hidden">
+								<p><span class="dashboard-financials__chart-value-1">5240</span><span class="dashboard-financials__chart-value-2">-3.24%</span></p>
+								<p class="dashboard-financials__chart-value-3">SPONS</p>
+							</div>
+						</div>
+						<div class="dashboard__item dashboard-sponsees">
+							<h2 class="dashboard-sponsees__header">Preferred sponsees</h2>
+							<ul class="dashboard-sponsees__list">
+								<li class="dashboard-sponsees__item">Individuals in sports</li>
+								<li class="dashboard-sponsees__item">Sport events</li>
+								<li class="dashboard-sponsees__item">Marathons</li>
+								<li class="dashboard-sponsees__item">Children competition</li>
+							</ul>
+						</div>
+					</div>
+					<div class="dashboard__column">
+						<div class="dashboard__item dashboard-textbox">
+							<h2 class="dashboard-textbox__header">Description</h2>
+							<div class="dashboard-textbox__content">
+								<p>Adidas is a multinational corporation, founded and headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories. It is the largest sportswear manufacturer in Europe, and the second largest in the world, after Nike. It is the holding company for the Adidas Group. The company was started by Adolf Dassler in his mother’s house; he was joined by his elder brother Rudolf in 1924 under the name Dassler Brothers Shoe Factory. Dassler assisted in the development of spiked running shoes (spikes) for multiple athletic events.</p>
+							</div>
+						</div>
+						<div class="dashboard__item dashboard-textbox">
+							<h2 class="dashboard-textbox__header">Sponsorship experience</h2>
+							<div class="dashboard-textbox__content">
+								<p>Adidas has numerous major kit deals with football clubs worldwide, including their main sponsor Bayern Munich. Other clubs include Real Madrid, Manchester United, River Plate, Milan and Juventus. Adidas has sponsored numerous players, including Lionel Messi, Zinedine Zidane, Kaká, David Beckham, Steven Gerrard. Adidas is one of the official sponsors of the UEFA Champions League, and the Adidas Finale is the competition’s official match ball. Along with the aforementioned Adidas Predator boot, Adidas manufactures the adiPure range of football boots.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dashboard__row dashboard__row_last">
+					<div class="dashboard__item dashboard-statistic">
+						<h2 class="dashboard-statistic__header">Sponsorship statistics</h2>
+						<div class="dashboard-statistic__container">
+							<div class="dashboard-statistic__item">
+								<div class="dashboard-statistic__chart"><img class="dashboard-statistic__image" src="images/ellipse-1.png" alt="Chart1"/></div>
+								<div class="dashboard-statistic__info">
+									<h3 class="dashboard-statistic__title">Industry distribution</h3>
+									<ul class="dashboard-statistic__list">
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_curious-blue">Sport events</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_sunset-orange">Universities</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_heliotrope">Non-Profits</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_aquamarine">Musical festivals, children competitions, other…</li>
+									</ul>
+								</div>
+							</div>
+							<div class="dashboard-statistic__item">
+								<div class="dashboard-statistic__chart"><img class="dashboard-statistic__image" src="images/ellipse-2.png" alt="Chart2"/></div>
+								<div class="dashboard-statistic__info">
+									<h3 class="dashboard-statistic__title">Geo distribution</h3>
+									<ul class="dashboard-statistic__list">
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_curious-blue">Europe</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_sunset-orange">North America</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_heliotrope ">Asia-Pacific</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_aquamarine">South America, Africa</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"><span class="footer__text">Sponsy © 2018 All rights reserved</span></footer>
+		<div class="notify dashboard__item animation-short">
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1534492047582"></script>
+		<script src="js/main.js?v=1534492047582"></script>
+	</body>
+</html>

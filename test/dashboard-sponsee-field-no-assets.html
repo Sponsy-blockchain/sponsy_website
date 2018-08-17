@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport">
+		<link rel="stylesheet" href="css/main.css?v=1534492044472">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container"><a href="#"><img class="header__logo" src="images/logo.png" alt="logo"></a>
+				<div class="header__info"> 
+					<div class="header__login">
+						<div class="header__name notify-selector">Bob Cowe</div>
+						<div class="header__swither">
+							 Log out</div>
+					</div>
+					<div class="header__notice notify-selector"><img class="header__notice-image" src="images/bell.svg" alt="notice bell">
+						<div class="header__notice-quantity">2</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside class="sidebar">
+			<nav>
+				<ul class="sidebar__menu">
+					<li class="sidebar__item"><a class="sidebar__link active" href="#">
+							<div class="sidebar__image dashboard"></div><span class="sidebar__text">Dashboard</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image sponsor"></div><span class="sidebar__text">Sponsors</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image handshake"></div><span class="sidebar__text">Sponsee</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image network"></div><span class="sidebar__text">My arrangements</span></a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main class="dashboard">
+			<div class="dashboard__container">
+				<div class="dashboard__header">
+					<h1 class="dashboard__title">My business</h1><a class="dashboard__edit" href="#">edit</a>
+				</div>
+				<div class="dashboard__row dashboard__row_first">
+					<div class="dashboard__item dashboard-brand">
+						<div class="dashboard-brand__image">	<img src="images/sponsee/logo.png" alt="Brand"/></div>
+						<div class="dashboard-brand__content">
+							<h2 class="dashboard-brand__header">Nice Jazz Festival</h2>
+							<div class="dashboard-brand__text">
+								<p>The first jazz festival of international significance</p>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__item dashboard-rating">
+						<p class="dashboard-rating__header">Rating</p>
+						<p class="dashboard-rating__text">4.3</p>
+					</div>
+					<div class="dashboard__item dashboard-arrangements">
+						<p class="dashboard-arrangements__header">0</p>
+						<p class="dashboard-arrangements__text">Total number of my arrangements</p>
+					</div>
+					<div class="dashboard__item dashboard-foundation">
+						<p class="dashboard-foundation__header">2</p>
+						<p class="dashboard-foundation__text">Number of sponsorship assets</p>
+					</div>
+				</div>
+				<div class="dashboard__row">
+					<div class="dashboard__column">
+						<div class="dashboard__item dashboard-financials">
+							<h2 class="dashboard-financials__header">Financials</h2>
+							<div class="dashboard-financials__chart">
+								<div class="chart">
+									<div class="chart__axis chart__axis_y">
+										<div class="chart__value">6000</div>
+										<div class="chart__value">4000</div>
+										<div class="chart__value">2000</div>
+									</div>
+									<div class="chart__field">
+										<div class="chart__line"></div>
+										<div class="chart__line"></div>
+										<div class="chart__line"></div>
+										<canvas class="chart__canvas" id="financial-chart-1"></canvas>
+									</div>
+									<div class="chart__axis chart__axis_x">
+										<div class="chart__value">Jan</div>
+										<div class="chart__value">Feb</div>
+										<div class="chart__value">Mar</div>
+										<div class="chart__value">Apr</div>
+										<div class="chart__value">May</div>
+										<div class="chart__value">Jun</div>
+										<div class="chart__value">Jul</div>
+										<div class="chart__value">Aug</div>
+										<div class="chart__value">Sep</div>
+										<div class="chart__value">Oct</div>
+										<div class="chart__value">Nov</div>
+										<div class="chart__value">Dec</div>
+									</div>
+								</div>
+							</div>
+							<div class="dashboard-financials__values">
+								<div class="dashboard-financials__item">
+									<div class="dashboard-financials__spend">Total spend</div>
+									<div class="dashboard-financials__value">YTD</div>
+									<div class="dashboard-financials__spons">SPONS 4k</div>
+								</div>
+								<div class="dashboard-financials__item">
+									<div class="dashboard-financials__spend">Total spend</div>
+									<div class="dashboard-financials__value">Last 12 month</div>
+									<div class="dashboard-financials__spons">SPONS 400k</div>
+								</div>
+								<div class="dashboard-financials__item">
+									<div class="dashboard-financials__spend">Total spend</div>
+									<div class="dashboard-financials__value">Last month</div>
+									<div class="dashboard-financials__spons">SPONS 20k</div>
+								</div>
+							</div>
+							<div class="dashboard-financials__chart-point hidden"></div>
+							<div class="dashboard-financials__chart-description hidden">
+								<p><span class="dashboard-financials__chart-value-1">5240</span><span class="dashboard-financials__chart-value-2">-3.24%</span></p>
+								<p class="dashboard-financials__chart-value-3">SPONS</p>
+							</div>
+						</div>
+						<div class="dashboard__item dashboard-textbox">
+							<h2 class="dashboard-textbox__header">What should sponsors expect</h2>
+							<div class="dashboard-textbox__content">
+								<p>We’ve created a so-called Partners Village. We will be happy to see your brand or company joining the Village. This is a great opportunity for you to position your company as a key player in economic and social life, promote your dynamism, and strengthen business contacts.</p>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__column">
+						<div class="dashboard__item dashboard-textbox">
+							<h2 class="dashboard-textbox__header">Description</h2>
+							<div class="dashboard-textbox__content">
+								<p>The Nice Jazz Festival, held annually since 1948 in Nice, on the French Riviera, is “the first jazz festival of international significance.” At the inaugural festival, Louis Armstrong and his All Stars were the headliners. Frommer’s calls it “the biggest, flashiest, and most prestigious jazz festival in Europe.” Over the years, many artists, such as Lionel Hampton, Dizzy Gillespie, Ray Charles, Herbie Hancock, and Miles Davis, regularly appeared at the festival. After 1994, it saw a change of emphasis, with more world music and pop</p>
+							</div>
+						</div>
+						<div class="dashboard__item dashboard-textbox">
+							<h2 class="dashboard-textbox__header">What we offer</h2>
+							<div class="dashboard-textbox__content">
+								<p>Sponsors are free to put their unique branding and advertising on custom stand or counter throughout the event territory. The size of branding can vary and will influence the price of it. Premium sponsors can enjoy event organizers expressly mentioning their brand during one of the speeches. Please refer to sponsorship assets section to learn more about how your brand could gain from being featured.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dashboard__row">
+					<div class="dashboard__item dashboard-statistic">
+						<h2 class="dashboard-statistic__header">Sponsorship statistics</h2>
+						<div class="dashboard-statistic__container">
+							<div class="dashboard-statistic__item">
+								<div class="dashboard-statistic__chart"><img class="dashboard-statistic__image" src="images/ellipse-1.png" alt="Chart1"/></div>
+								<div class="dashboard-statistic__info">
+									<h3 class="dashboard-statistic__title">Industry distribution</h3>
+									<ul class="dashboard-statistic__list">
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_curious-blue">Food&amp;Beverage</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_sunset-orange">Lifestyle</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_heliotrope">Luxury travel</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_aquamarine">Coach, Dior, fashion, other…</li>
+									</ul>
+								</div>
+							</div>
+							<div class="dashboard-statistic__item">
+								<div class="dashboard-statistic__chart"><img class="dashboard-statistic__image" src="images/ellipse-2.png" alt="Chart2"/></div>
+								<div class="dashboard-statistic__info">
+									<h3 class="dashboard-statistic__title">Funding distribution</h3>
+									<ul class="dashboard-statistic__list">
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_curious-blue">&lt; $50k</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_sunset-orange">$50k - $150k</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_heliotrope ">$150k - $500k</li>
+										<li class="dashboard-statistic__list-item dashboard-statistic__list-item_aquamarine">&gt; $500k</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dashboard__row justify">
+					<h2 class="dashboard__section-header">My Sponsorship Assets</h2>
+					<div class="dashboard__item dashboard-assets">
+						<div class="dashboard-assets__title">No assets have been listed yet</div><img class="dashboard-assets__image" src="images/blank.png" alt="Blank"/>
+						<div class="dashboard-assets__text">You won’t appear in Sponsees tab before you list at least 1 asset</div><a class="dashboard-assets__button" href="#">List new asset</a>
+					</div>
+				</div>
+				<div class="dashboard__row">
+					<h2 class="dashboard__section-header">Return On Investment</h2>
+					<div class="dashboard__item return-on">
+						<h3 class="return-on__title">Average 6 months ROI delivered</h3>
+						<div class="return-on__content">
+							<div class="return-on__chart chart">
+								<div class="chart__axis chart__axis_y">
+									<div class="chart__value">6000</div>
+									<div class="chart__value">4000</div>
+									<div class="chart__value">2000</div>
+								</div>
+								<div class="chart__field">
+									<div class="chart__line"></div>
+									<div class="chart__line"></div>
+									<div class="chart__line"></div>
+								</div>
+								<div class="chart__axis chart__axis_x">
+									<div class="chart__value">Jan</div>
+									<div class="chart__value">Feb</div>
+									<div class="chart__value">Mar</div>
+									<div class="chart__value">Apr</div>
+									<div class="chart__value">May</div>
+									<div class="chart__value">Jun</div>
+									<div class="chart__value">Jul</div>
+									<div class="chart__value">Aug</div>
+									<div class="chart__value">Sep</div>
+									<div class="chart__value">Oct</div>
+									<div class="chart__value">Nov</div>
+									<div class="chart__value">Dec</div>
+								</div>
+							</div>
+							<div class="return-on__info">
+								<p class="return-on__description">Average ROI</p>
+								<p class="return-on__time">6 month</p>
+								<p class="return-on__value">46%</p>
+							</div>
+						</div>
+						<div class="return-on__chart-point"></div>
+						<div class="return-on__chart-description">
+							<p><span class="return-on__chart-value-1">5240</span><span class="return-on__chart-value-2">-3.24%</span></p>
+							<p class="return-on__chart-value-3">SPONS</p>
+						</div>
+					</div>
+				</div>
+				<div class="dashboard__row dashboard-platform-section">
+					<h2 class="dashboard__section-header">Platform statistics</h2>
+					<div class="dashboard__item dashboard-platform">
+						<div class="dashboard-platform__content">
+							<p class="dashboard-platform__value">40</p>
+							<p class="dashboard-platform__text">Number of sponsors on the platform</p>
+						</div>
+						<div class="dashboard-platform__image"><img src="images/sponsor_platform.png"/></div>
+					</div>
+					<div class="dashboard__item dashboard-platform">
+						<div class="dashboard-platform__content">
+							<p class="dashboard-platform__value">33</p>
+							<p class="dashboard-platform__text">Number of sponsees on the platform</p>
+						</div>
+						<div class="dashboard-platform__image"><img src="images/handshake_platform.png"/></div>
+					</div>
+					<div class="dashboard__item dashboard-platform">
+						<div class="dashboard-platform__content">
+							<p class="dashboard-platform__value">100</p>
+							<p class="dashboard-platform__text">Number of assets on the platform</p>
+						</div>
+						<div class="dashboard-platform__image"><img src="images/network_platform.png"/></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"><span class="footer__text">Sponsy © 2018 All rights reserved</span></footer>
+		<div class="notify dashboard__item animation-short">
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1534492044475"></script>
+		<script src="js/main.js?v=1534492044475"></script>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport">
+		<link rel="stylesheet" href="css/main.css?v=1534492046727">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container"><a href="#"><img class="header__logo" src="images/logo.png" alt="logo"></a>
+				<div class="header__info"> 
+					<div class="header__login">
+						<div class="header__name notify-selector">Bob Cowe</div>
+						<div class="header__swither">
+							 Log out</div>
+					</div>
+					<div class="header__notice notify-selector"><img class="header__notice-image" src="images/bell.svg" alt="notice bell">
+						<div class="header__notice-quantity">2</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside class="sidebar">
+			<nav>
+				<ul class="sidebar__menu">
+					<li class="sidebar__item"><a class="sidebar__link active" href="#">
+							<div class="sidebar__image dashboard"></div><span class="sidebar__text">Dashboard</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image sponsor"></div><span class="sidebar__text">Sponsors</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image handshake"></div><span class="sidebar__text">Sponsee</span></a></li>
+					<li class="sidebar__item"><a class="sidebar__link" href="#">
+							<div class="sidebar__image network"></div><span class="sidebar__text">My arrangements</span></a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main class="dashboard">
+			<div class="dashboard__container">
+				<h2 class="dashboard__section-header">Creating new arrangement</h2>
+				<div class="dashboard__row">
+					<div class="dashboard__item new-arrangement">
+						<form id="new-arrangemet-form">
+							<div class="new-arrangement__container-top">
+								<label class="new-arrangement__label label-unify" for="new-arrangement-input">What is title of your arrangement</label>
+								<input class="new-arrangement__input input-unify" id="new-arrangement-input" type="text" placeholder="Partnership with Music Event">
+								<div class="new-arrangement__content">
+									<p class="new-arrangement__description label-unify">Partner</p>
+									<div class="new-arrangement__container">
+										<div class="new-arrangement__logo"><img class="new-arrangement__image" src="images/sponsee/logo.png" alt="Logo"></div>
+										<div class="new-arrangement__title"><span>Nice Jazz Festival</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="list-new-asset__direct"><a class="list-new-asset__button list-new-asset__button_cancel animation-unify" href="#">Cancel</a>
+								<input class="list-new-asset__button list-new-asset__button_confirm animation-unify" type="submit" value="Confirm"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"><span class="footer__text">Sponsy © 2018 All rights reserved</span></footer>
+		<div class="notify dashboard__item animation-short">
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1534492046728"></script>
+		<script src="js/main.js?v=1534492046728"></script>
+	</body>
+</html>

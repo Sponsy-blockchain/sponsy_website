@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" id="viewport">
+		<link rel="stylesheet" href="css/main.css?v=1534495050574">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container"><a href="#"><img class="header__logo" src="images/logo.png" alt="logo"></a>
+				<div class="header__info"> 
+					<div class="header__login">
+						<div class="header__name notify-selector">Bob Cowe</div>
+						<div class="header__swither">
+							 Log out</div>
+					</div>
+					<div class="header__notice notify-selector"><img class="header__notice-image" src="images/bell.svg" alt="notice bell">
+						<div class="header__notice-quantity">2</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="dashboard">
+			<div class="dashboard__container dashboard__container_without-sidebar listing-sponsor">
+				<form id="listing-sponsor-business">
+					<div class="dashboard__row dashboard__row_listing">
+						<h2 class="dashboard__section-header">Listing sponsor business</h2>
+						<div class="dashboard__item">
+							<label class="label-unify">Enter the title to be seen as sponsor</label>
+							<input class="input-unify" type="text" placeholder="Adidas" value=""/>
+							<label class="label-unify">Enter the brief company’s quote</label>
+							<input class="input-unify" type="text" placeholder="International sportswear brand. largest sportswear manufacturer in Europe" value=""/>
+						</div>
+						<div class="dashboard__item sponsor-buisness">
+							<div class="sponsor-buisness__logo">
+								<p class="sponsors-buisness__hint label-unify">Chose a sponsor’s logo</p>
+								<label class="label-file-unify"><img class="sponsor-buisness__image" src="images/photo-empty.png" alt="Logo"/>
+									<input class="input-file-unify" type="file"/>
+								</label>
+							</div>
+							<div class="sponsor-buisness__content">
+								<h3 class="sponsor-buisness__title">Adidas</h3>
+								<p class="sponsor-buisness__description">International sportswear brand. largest sportswear manufacturer in Europe</p>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__row dashboard__row_listing">
+						<h2 class="dashboard__section-header">Details</h2>
+						<div class="dashboard__item sponsor-detail">
+							<label class="label-unify" for="details-1-textarea">Description shall tell more about your company, its history and development.</label>
+							<textarea class="textarea-unify" id="details-1-textarea" name="details-1" cols="10" rows="5" placeholder="Adidas is a multinational corporation, founded and headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories. It is the largest sportswear manufacturer in Europe, and the second largest in the world, after Nike. It is the holding company for the Adidas Group."></textarea>
+						</div>
+						<div class="dashboard__item sponsor-detail">
+							<label class="label-unify" for="details-2-textarea">Tell us more about the way you approach sponsorship business.</label>
+							<textarea class="textarea-unify" id="details-2-textarea" name="details-2" cols="10" rows="5" placeholder="Adidas has numerous major kit deals with football clubs worldwide, including their main sponsor Bayern Munich. Other clubs include Real Madrid, Manchester United, River Plate, Milan and Juventus. Adidas has sponsored numerous players, including Lionel Messi, Zinedine Zidane, Kaká, David Beckham, Steven Gerrard."></textarea>
+						</div>
+						<div class="dashboard__item sponsor-category">
+							<p class="label-unify">Specify the industries with which you’d love to work more</p>
+							<div class="sponsor-category__tag added">Individuals in sports</div>
+							<div class="sponsor-category__tag added">Sport events</div>
+							<div class="sponsor-category__tag">Add another category…</div>
+						</div>
+						<div class="dashboard__item sponsor-select">
+							<p class="label-unify">Select your business indusrty from the list below</p>
+							<div class="sponsor-select__container">
+								<select class="sponsor-select__select" id="details-select" name="details-select">
+									<option></option>
+									<option value="Automative">Automative</option>
+									<option value="Technology &amp; Telecommunications">Technology & Telecommunications</option>
+									<option value="Clothing">Clothing</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="dashboard__row dashboard__row_listing">
+						<div class="list-new-asset__direct"><a class="list-new-asset__button list-new-asset__button_cancel animation-unify" href="#">Cancel</a>
+							<input class="list-new-asset__button list-new-asset__button_confirm animation-unify" type="submit" value="Confirm"/>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer"><span class="footer__text">Sponsy © 2018 All rights reserved</span></footer>
+		<div class="notify dashboard__item animation-short">
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+			<div class="notify__item">
+				<p class="notify__description">Partnership request from</p>
+				<p class="notify__title">Nice Jazz Festival</p>
+				<div class="notify__direct">
+					<div class="notify__button notify__button_decline animation-unify">Decline</div>
+					<div class="notify__button notify__button_approve animation-unify">Approve</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1534495050575"></script>
+		<script src="js/main.js?v=1534495050575"></script>
+	</body>
+</html>
