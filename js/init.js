@@ -2863,7 +2863,7 @@ function setupCharts() {
     data: {
         datasets: [{
             label: 'Tokens Allocation',
-            data: [50, 15, 2, 21, 7, 5],
+            data: [70, 15, 5, 5, 4, 1],
             backgroundColor: [
                 'rgba(255, 99, 132, 1.0)',
                 'rgba(54, 162, 235, 1.0)',
@@ -2909,7 +2909,7 @@ function setupCharts() {
     data: {
         datasets: [{
             label: 'Use of Proceeds',
-            data: [44, 15, 14, 11, 7, 5, 4],
+            data: [30, 30, 15.5, 10, 7, 5, 2],
             backgroundColor: [
                 'rgba(249, 200, 14, 1.0)',
                 'rgba(248, 102, 36, 1.0)',

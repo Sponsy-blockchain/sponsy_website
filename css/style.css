@@ -3608,6 +3608,7 @@ button.button404 {
   padding-left: 0px;
   padding-right: 0px;
   font-size: 1.1rem;
+  padding-top: 20px;
 }
 
 .privateSalePlacementsText {
@@ -9913,11 +9914,13 @@ a.interview_link_underneath {
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 25px;
+  display: none;
 }
 
 .view-text ul.accepting_currencies_icons{
   padding-left: 0px;
   padding-right: 0px;
+  display: none;
 }
 
 .accepting_currencies_text {
@@ -9926,10 +9929,11 @@ a.interview_link_underneath {
   font-weight: bold;
   font-size: 16px;
   margin-top: 30px;
+  display: none;
 }
 
 .accepting_currencies_icons {
-  display: flex;
+  display: none; /* flex */
   flex-wrap: wrap;
   padding-left: 30px;
   padding-right: 30px;
